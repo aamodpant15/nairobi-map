@@ -1,0 +1,20 @@
+# local one-shot -- do not commit
+bootstrap_nairobi_map.py
+.DS_Store
+.idea/
+.vscode/
+*.swp
+.venv/
+__pycache__/
+*.pyc
+.python-version
+.pytest_cache/
+node_modules/
+npm-debug.log*
+data/raw/**
+!data/raw/**/.gitkeep
+data/derived/rasters/
+data/derived/tmp/
+*.tif
+*.tiff
+*.zip
